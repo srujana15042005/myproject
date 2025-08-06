@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+        }
+        .hr1{
+            border: 1px solid darkred;
+            margin-top: -20px;
+        }
+        .s1{
+            padding: 20px;
+            border: 0.25px solid grey;
+            margin-top: 10px;
+            border-radius: 10px;
+            border-left: 5px solid blue;
+            border-top: 10px solid darkred;
+        }
+        .s2{
+            padding: 20px;
+            border: 0.25px solid grey;
+            margin-top: 10px;
+            border-radius: 10px;
+            border-left: 5px solid blue;
+        }
+    </style>
+</head>
+<body>
+    <div>
+    <img src="https://plan.events.mpg.de/event/92/logo-2664882429.png" style="border-radius: 10px;">
+    <div class="s1">
+        <p style="font-size:40px;margin-top:-15px">Event registration</p><hr class="hr1">
+        <p>Event Timing: January 4th-6th, 2016<br>Event Address: 123 Your Street Your City, ST 12345<br>Contact us at (123) 456-7890 or no_reply@example.com</p>
+    </div>
+    <div class="s2">
+        <label for="name">Name<span style="color: red;">*</span></label><br>
+        <input type="text" id="name" placeholder="short-answer text" style="border: 0px;margin-top:20px"><hr style="width: 300px;margin-left:0px">
+    </div>
+    <div class="s2">
+        <label for="email">Email<span style="color: red;">*</span></label><br>
+        <input type="text" id="email" placeholder="short-answer text" style="border: 0px;margin-top:20px"><hr style="width: 300px;margin-left:0px">
+    </div>
+    <div class="s2">
+        <label for="organization">Organization<span style="color: red;">*</span></label><br>
+        <input type="text" id="organization" placeholder="short-answer text" style="border: 0px;margin-top:20px"><hr style="width: 300px;margin-left:0px">
+    </div>
+    
+    <div class="s2">
+        <label for="days">What days will you attend?<span style="color: red;">*</span></label><br>
+        <label><input type="checkbox" id="days" name="Day1" value="day1" style="border: 0px;margin-top:20px">Day 1</label><br>
+        <label><input type="checkbox" id="days" name="Day2" value="day1" style="border: 0px;margin-top:20px">Day 2</label><br>
+        <label><input type="checkbox" id="days" name="Day3" value="day1" style="border: 0px;margin-top:20px">Day 3</label>
+    </div>
+    <div class="s2">
+        <label for="food">Dietary restrictions</label><br>
+        <label><input type="radio" id="food" name="food"  style="border: 0px;margin-top:20px">None</label><br>
+        <label><input type="radio" id="food" name="food"  style="border: 0px;margin-top:20px">Vegetarian</label><br>
+        <label><input type="radio" id="food" name="food"  style="border: 0px;margin-top:20px">Vegan</label><br>
+        <label><input type="radio" id="food" name="food"  style="border: 0px;margin-top:20px">Kosher</label><br>
+        <label><input type="radio" id="food" name="food"  style="border: 0px;margin-top:20px">Gluten-free</label><br>
+        <label><input type="radio" id="food" name="food"  style="border: 0px;margin-top:20px ;color:solid grey;">Others..</label><br>
+    </div>
+    <div class="s2">
+        <label>I understand that I will have to pay $$ upon arrival<span style="color: red;">*</span></label>
+    </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <style>
+        .s1{
+            border: 1px solid black;
+            background-color: aqua;
+            width: 100px;
+            height: 100px;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+        }
+        .s2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        nav{
+            gap: 50px;
+            background-color: rgb(5, 5, 5);
+            color: aliceblue;
+            display: flex;
+            
+        }
+        .s3{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: black; 
+        }
+        .s4{
+            width: 200px;
+            height: 100px;
+            background-color: lightcoral;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: bold;
+            color: white;
+            border-radius: 8px;
+        }
+        .flexcontainer1{
+            display: flex;
+            justify-content: center;
+            height: 100vh;
+            align-items: flex-end;
+            background-color: rgb(64, 9, 193);
+        }
+        .flexcontainer2{
+            display: flex;
+            background-color: bisque;
+            padding: 20px;
+            gap: 10px;
+            align-items: flex-end;
+        }
+        .item{
+            width: 150px;
+            height: 50px;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .centeritem{
+            align-self: center;
+        }
+        .contain{
+            height: 400px;
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        flex-grow: 2;
+        flex-shrink: 1;
+        }
+        .box{
+            height: 100px;
+            width: 100px;
+            background-color: black;
+            text-align: center;
+            color: white;
+            border: 2px solid gold;
+            border-radius: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="s2">
+    <div class="s1">Flex box</div>
+    <div class="s1" style="background-color:yellowgreen;">1</div>+
+    <div class="s1" style="background-color: red;">2</div>
+    <div class="s1" style="background-color: orange;">3</div>
+    <div class="s1" style="background-color:yellow;">4</div>
+    <div class="s1" style="background-color: green;">5</div>
+    <div class="s1" style="background-color:blue;">6</div>
+    <div class="s1" style="background-color: indigo;">7</div>
+    <div class="s1" style="background-color: violet;">8</div>
+    </div><hr>
+    <nav> 
+        <div>HOME</div>
+        <div>CONTENT</div>
+        <div>SERVICE</div>
+        <div>SEARCH</div>
+    </nav><hr>
+    <div class="s3">
+    <div class="s4">centered</div>
+    </div><hr>
+    <div class="flexcontainer1">
+        <div class="flexcontainer2">
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item centeritem">3</div>
+            <div class="item">4</div>
+        </div>
+    </div>
+    <div class="contain">
+        <div class="box">card 1</div>
+        <div class="box">card 2</div>
+        <div class="box">card 3</div>
+        <div class="box">card 4</div>
+    </div>
+</body>
+</html>
