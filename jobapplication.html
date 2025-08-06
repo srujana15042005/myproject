@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>job application form</title>
+    <style>
+        body{
+            display: grid;
+            place-items: center;
+        }
+        .s1{
+            text-align: center;
+            width: 600px;
+            height: fit-content;
+            color:yellow;
+            border: 2px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            padding:1cqh;
+            background-color: rgb(52, 52, 198);
+        }
+        .s2{
+            height: fit-content;
+            width:600px ;
+            border: 2px black;
+            display: grid;
+            grid-template-columns:1fr 1fr;  
+            margin-bottom: 100px;
+        }
+        .s6{
+            height:30px;
+            width:355px ;
+            border: 2px black;
+            grid-template-columns:1fr 1fr;
+            margin-bottom: 30px;
+
+
+        }
+        .s3{
+            height: fit-content;
+            width:fit-content ;
+            border: 2px black;
+            display: grid;
+            grid-template-columns:1fr 1fr 1fr;  
+            gap: 10px;
+            margin-bottom: 50px;
+        }
+        .s4{
+            height: 30px;
+            width:209px ;
+            border: 2px black;
+        }
+        .s5{
+            width: 300px;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <form action="porfolio.html" method="get">
+        <div class="s1">
+        <h2> JOB APPLICATION FORM</h2>
+        </div>
+        <div>
+            <label for="position">position you applied for</label>
+            <input type="text" style="width: 449px;  height: 30px" id="position" name="position">
+        </div>
+        <div>
+            <h3 style="color:blueviolet;">PERSONAL DETAILS</h3>
+        </div>
+        <div class="s2">
+            <div class="s6">
+                <label for="Full Name">Full Name</label><br>
+                <input type="text" style="width: 250px; height: 30px;" id="full name" name="full name">
+            </div>
+            <div class="s6">
+                <label for="Phone Number">Phone Number</label><br>
+                <input type="text" style="width: 250px; height: 30px;"id="Phone Number" name="Phone Number">
+            </div>
+            <div class="s6">
+                <label for="Address">Address</label><br>
+                <input type="text"style="width: 250px; height: 30px;" id="Address" name="Address">
+            </div>
+            <div class="s6">
+                <label for="Email Address">Email Address</label><br>
+                <input type="text"style="width: 250px; height: 30px;" id="Email Address" name="Email Address">
+            </div>
+        </div>
+        <div>
+           <h3 style="color:blueviolet;">EDUCATION</h3>
+        </div>
+        <div class="s3">
+            <div class="s4">
+                <label for="School/Institution">School/Institution</label><br>
+                <input type="text"style="height: 30px;" id="School/Institution" name="School/Institution">
+            </div>
+            <div class="s4">
+                <label for="Degree/Certification">Degree/Certification</label><br>
+                <input type="text"style="height: 30px;" id="Degree/Certification" name="Degree/Certification">
+            </div>
+            <div class="s4">
+                <label for="Year completed">Year completed</label><br>
+                <input type="text" style="height: 30px;" id="Year completed" name="Year completed">
+            </div>
+        </div>
+        <div>
+            <h3 style="color:blueviolet;">RECENT EMPLOYMENT HISTORY</h3>
+        </div>
+        <div class="s3">
+            <div class="s4">
+                <label for="Company Name">Company Name</label><br>
+                <input type="text" style="height: 30px;" id="Company Name" name="Company Name">
+            </div>
+            <div class="s4">
+                <label for="Position held">Position held</label><br>
+                <input type="text"style="height: 30px;" id="Position held" name="Position held">
+            </div>
+            <div class="s4">
+                <label for="Employement Dates">Employement Dates</label><br>
+                <input type="text" style="height: 30px;" id="Employement Dates" name="Employement Dates">
+            </div>
+        </div>
+        <div>
+            <h3 style="color:blueviolet;">SKILLS&QUALIFICATION</h3>
+            <label for="list">List relevant skills,certification or qualifications</label><br>
+            <input type="text area" style=" width:600px; height: 100px;"  id="list" name="list">
+        </div>
+        <div>
+            <h3 style="color:blueviolet;">RECENT EMPLOYMENT HISTORY</h3>
+        </div>
+        <div class="s3">
+            <div class="s4">
+                <label for="Reference name">Reference name</label><br>
+                <input type="text" style="height: 30px;" id="Reference name" name="Reference name">
+            </div>
+            <div class="s4">
+                <label for="Relationship">Relationship</label><br>
+                <input type="Relationship" style="height: 30px;" id="Relationship" name="Relationship">
+            </div>
+            <div class="s4">
+                <label for="Phone number">Phone number</label><br>
+                <input type="text" style="height: 30px;" id="Phone number" name="Phone number">
+            </div>
+        </div>
+        <div class="s3">
+        <div class="s5">
+            <p>I certify that the information provided in this application is accurate and complete.I understand that providing false information may result in disqualification from consideration for employment.</p>
+        </div>
+        <div class="s5">
+            <label>Applicant<br>Signature</label>
+            <input type="text" style="width: 225px; height: 30px ">
+        </div>
+        </div>
+    </form>
+</body>
+</html>
